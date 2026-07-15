@@ -1,154 +1,1371 @@
 {
   "plugins": [
-    { "name": "Yoast SEO", "category": "SEO e conteúdo" },
-    { "name": "All in One SEO Pack", "category": "SEO e conteúdo" },
-    { "name": "Rank Math", "category": "SEO e conteúdo" },
-    { "name": "The SEO Framework", "category": "SEO e conteúdo" },
-    { "name": "Redirection", "category": "SEO e conteúdo" },
-    { "name": "Broken Link Checker", "category": "SEO e conteúdo" },
-    { "name": "Table of Contents Plus", "category": "SEO e conteúdo" },
-    { "name": "Pretty Links", "category": "SEO e conteúdo" },
-    { "name": "Advanced Editor Tools (TinyMCE Advanced)", "category": "SEO e conteúdo" },
-    { "name": "Classic Editor", "category": "SEO e conteúdo" },
-    { "name": "Disable Comments", "category": "SEO e conteúdo" },
-
-    { "name": "Wordfence Security", "category": "Segurança / login" },
-    { "name": "Sucuri Security", "category": "Segurança / login" },
-    { "name": "Solid Security (iThemes Security)", "category": "Segurança / login" },
-    { "name": "All In One WP Security & Firewall", "category": "Segurança / login" },
-    { "name": "Limit Login Attempts Reloaded", "category": "Segurança / login" },
-    { "name": "Loginizer", "category": "Segurança / login" },
-    { "name": "WPS Hide Login", "category": "Segurança / login" },
-    { "name": "Two Factor Authentication", "category": "Segurança / login" },
-    { "name": "Google Authenticator", "category": "Segurança / login" },
-
-    { "name": "UpdraftPlus", "category": "Backup / migração" },
-    { "name": "All-in-One WP Migration", "category": "Backup / migração" },
-    { "name": "Duplicator", "category": "Backup / migração" },
-    { "name": "BackWPup", "category": "Backup / migração" },
-    { "name": "WP Migrate DB", "category": "Backup / migração" },
-    { "name": "Really Simple SSL", "category": "Backup / migração" },
-
-    { "name": "W3 Total Cache", "category": "Cache / performance" },
-    { "name": "WP Super Cache", "category": "Cache / performance" },
-    { "name": "WP Rocket", "category": "Cache / performance" },
-    { "name": "WP Fastest Cache", "category": "Cache / performance" },
-    { "name": "LiteSpeed Cache", "category": "Cache / performance" },
-    { "name": "Autoptimize", "category": "Cache / performance" },
-    { "name": "Smush", "category": "Cache / performance" },
-    { "name": "EWWW Image Optimizer", "category": "Cache / performance" },
-    { "name": "WP-Optimize", "category": "Cache / performance" },
-    { "name": "Query Monitor", "category": "Cache / performance" },
-    { "name": "a3 Lazy Load", "category": "Cache / performance" },
-
-    { "name": "Contact Form 7", "category": "Formulários" },
-    { "name": "WPForms", "category": "Formulários" },
-    { "name": "Gravity Forms", "category": "Formulários" },
-    { "name": "Ninja Forms", "category": "Formulários" },
-    { "name": "Formidable Forms", "category": "Formulários" },
-    { "name": "Caldera Forms", "category": "Formulários" },
-    { "name": "Fluent Forms", "category": "Formulários" },
-
-    { "name": "Elementor", "category": "Page builders / blocos" },
-    { "name": "WPBakery Page Builder (Visual Composer)", "category": "Page builders / blocos" },
-    { "name": "Beaver Builder", "category": "Page builders / blocos" },
-    { "name": "Divi Builder", "category": "Page builders / blocos" },
-    { "name": "SiteOrigin Page Builder", "category": "Page builders / blocos" },
-    { "name": "Brizy", "category": "Page builders / blocos" },
-    { "name": "Kadence Blocks", "category": "Page builders / blocos" },
-    { "name": "Spectra (Ultimate Addons for Gutenberg)", "category": "Page builders / blocos" },
-    { "name": "Essential Addons for Elementor", "category": "Page builders / blocos" },
-
-    { "name": "WooCommerce", "category": "E-commerce" },
-    { "name": "Easy Digital Downloads", "category": "E-commerce" },
-    { "name": "WooCommerce Stripe Gateway", "category": "E-commerce" },
-    { "name": "WooCommerce PayPal Payments", "category": "E-commerce" },
-    { "name": "YITH WooCommerce Wishlist", "category": "E-commerce" },
-    { "name": "Product Add-Ons", "category": "E-commerce" },
-
-    { "name": "BuddyPress", "category": "Membros / comunidade / LMS" },
-    { "name": "bbPress", "category": "Membros / comunidade / LMS" },
-    { "name": "MemberPress", "category": "Membros / comunidade / LMS" },
-    { "name": "Paid Memberships Pro", "category": "Membros / comunidade / LMS" },
-    { "name": "LearnDash", "category": "Membros / comunidade / LMS" },
-    { "name": "LifterLMS", "category": "Membros / comunidade / LMS" },
-    { "name": "Ultimate Member", "category": "Membros / comunidade / LMS" },
-    { "name": "Restrict Content", "category": "Membros / comunidade / LMS" },
-
-    { "name": "NextGEN Gallery", "category": "Mídia / galeria / sliders" },
-    { "name": "Envira Gallery", "category": "Mídia / galeria / sliders" },
-    { "name": "Slider Revolution", "category": "Mídia / galeria / sliders" },
-    { "name": "Soliloquy", "category": "Mídia / galeria / sliders" },
-    { "name": "MetaSlider", "category": "Mídia / galeria / sliders" },
-    { "name": "Regenerate Thumbnails", "category": "Mídia / galeria / sliders" },
-    { "name": "Enable Media Replace", "category": "Mídia / galeria / sliders" },
-
-    { "name": "Jetpack", "category": "Utilidades / admin" },
-    { "name": "Akismet Anti-Spam", "category": "Utilidades / admin" },
-    { "name": "Advanced Custom Fields (ACF)", "category": "Utilidades / admin" },
-    { "name": "Custom Post Type UI", "category": "Utilidades / admin" },
-    { "name": "WP-PageNavi", "category": "Utilidades / admin" },
-    { "name": "Widget Logic", "category": "Utilidades / admin" },
-    { "name": "Duplicate Post", "category": "Utilidades / admin" },
-    { "name": "WP Mail SMTP", "category": "Utilidades / admin" },
-    { "name": "Post SMTP", "category": "Utilidades / admin" },
-    { "name": "Code Snippets", "category": "Utilidades / admin" },
-    { "name": "Insert Headers and Footers", "category": "Utilidades / admin" },
-    { "name": "WP Crontrol", "category": "Utilidades / admin" },
-    { "name": "User Role Editor", "category": "Utilidades / admin" },
-    { "name": "Members", "category": "Utilidades / admin" },
-    { "name": "Adminimize", "category": "Utilidades / admin" },
-    { "name": "WP-DBManager", "category": "Utilidades / admin" },
-    { "name": "Health Check & Troubleshooting", "category": "Utilidades / admin" },
-
-    { "name": "WPML", "category": "Multilíngue / conteúdo" },
-    { "name": "Polylang", "category": "Multilíngue / conteúdo" },
-    { "name": "TranslatePress", "category": "Multilíngue / conteúdo" },
-    { "name": "Loco Translate", "category": "Multilíngue / conteúdo" },
-
-    { "name": "MailChimp for WordPress", "category": "Marketing / social / analytics" },
-    { "name": "Newsletter", "category": "Marketing / social / analytics" },
-    { "name": "MonsterInsights (Google Analytics)", "category": "Marketing / social / analytics" },
-    { "name": "Site Kit by Google", "category": "Marketing / social / analytics" },
-    { "name": "OptinMonster", "category": "Marketing / social / analytics" },
-    { "name": "Popup Maker", "category": "Marketing / social / analytics" },
-    { "name": "Social Icons", "category": "Marketing / social / analytics" },
-    { "name": "Sassy Social Share", "category": "Marketing / social / analytics" },
-    { "name": "Cookie Notice", "category": "Marketing / social / analytics" }
+    {
+      "name": "Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI",
+      "slug": "wordpress-seo",
+      "downloaded": 974507003,
+      "active_installs": 10000000
+    },
+    {
+      "name": "Elementor Website Builder &#8211; more than just a page builder",
+      "slug": "elementor",
+      "downloaded": 860364919,
+      "active_installs": 10000000
+    },
+    {
+      "name": "Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth",
+      "slug": "jetpack",
+      "downloaded": 497445855,
+      "active_installs": 3000000
+    },
+    {
+      "name": "WooCommerce",
+      "slug": "woocommerce",
+      "downloaded": 453438074,
+      "active_installs": 7000000
+    },
+    {
+      "name": "Wordfence Security &#8211; Firewall, Malware Scan, and Login Security",
+      "slug": "wordfence",
+      "downloaded": 418845334,
+      "active_installs": 5000000
+    },
+    {
+      "name": "Contact Form 7",
+      "slug": "contact-form-7",
+      "downloaded": 418346952,
+      "active_installs": 10000000
+    },
+    {
+      "name": "Akismet Anti-spam: Spam Protection",
+      "slug": "akismet",
+      "downloaded": 396038863,
+      "active_installs": 6000000
+    },
+    {
+      "name": "WPForms &#8211; AI Form Builder for WordPress &#8211; Contact Forms, Payment Forms, Survey Form, Quiz &amp; More",
+      "slug": "wpforms-lite",
+      "downloaded": 339738799,
+      "active_installs": 5000000
+    },
+    {
+      "name": "MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy)",
+      "slug": "google-analytics-for-wordpress",
+      "downloaded": 269415759,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed",
+      "slug": "google-site-kit",
+      "downloaded": 266996970,
+      "active_installs": 5000000
+    },
+    {
+      "name": "Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL)",
+      "slug": "really-simple-ssl",
+      "downloaded": 214608481,
+      "active_installs": 3000000
+    },
+    {
+      "name": "All in One SEO – AI SEO Plugin to Boost SEO Rankings &amp; Traffic (Schema, Local SEO, Sitemap &amp; SEO Insights)",
+      "slug": "all-in-one-seo-pack",
+      "downloaded": 206892326,
+      "active_installs": 3000000
+    },
+    {
+      "name": "Rank Math SEO – AI SEO Tools to Dominate SEO Rankings",
+      "slug": "seo-by-rank-math",
+      "downloaded": 185861362,
+      "active_installs": 4000000
+    },
+    {
+      "name": "All-in-One WP Migration and Backup",
+      "slug": "all-in-one-wp-migration",
+      "downloaded": 181295389,
+      "active_installs": 5000000
+    },
+    {
+      "name": "UpdraftPlus: WP Backup &amp; Migration Plugin",
+      "slug": "updraftplus",
+      "downloaded": 160624511,
+      "active_installs": 3000000
+    },
+    {
+      "name": "LiteSpeed Cache",
+      "slug": "litespeed-cache",
+      "downloaded": 132933085,
+      "active_installs": 7000000
+    },
+    {
+      "name": "Popup Builder &amp; Popup Maker for WordPress – OptinMonster Email Marketing and Lead Generation",
+      "slug": "optinmonster",
+      "downloaded": 132435175,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Essential Addons for Elementor &#8211; Popular Elementor Templates &amp; Widgets",
+      "slug": "essential-addons-for-elementor-lite",
+      "downloaded": 128942449,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Speed Optimizer &#8211; The All-In-One Performance-Boosting Plugin",
+      "slug": "sg-cachepress",
+      "downloaded": 102809166,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Starter Templates – AI-Powered Templates for Elementor &amp; Gutenberg",
+      "slug": "astra-sites",
+      "downloaded": 96607709,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Limit Login Attempts Security &#8211; Login Security, 2FA, Firewall, Brute Force Prevention",
+      "slug": "limit-login-attempts-reloaded",
+      "downloaded": 91716375,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Classic Editor",
+      "slug": "classic-editor",
+      "downloaded": 91136356,
+      "active_installs": 9000000
+    },
+    {
+      "name": "WPCode &#8211; Insert Headers and Footers + Custom Code Snippets &#8211; WordPress Code Manager",
+      "slug": "insert-headers-and-footers",
+      "downloaded": 89073706,
+      "active_installs": 3000000
+    },
+    {
+      "name": "The Events Calendar",
+      "slug": "the-events-calendar",
+      "downloaded": 84482316,
+      "active_installs": 700000
+    },
+    {
+      "name": "WP Mail SMTP by WPForms &#8211; The Most Popular SMTP and Email Log Plugin",
+      "slug": "wp-mail-smtp",
+      "downloaded": 82281967,
+      "active_installs": 4000000
+    },
+    {
+      "name": "MC4WP: Mailchimp for WordPress",
+      "slug": "mailchimp-for-wp",
+      "downloaded": 76747084,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Redirection",
+      "slug": "redirection",
+      "downloaded": 75634283,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Advanced Custom Fields (ACF®)",
+      "slug": "advanced-custom-fields",
+      "downloaded": 73193340,
+      "active_installs": 2000000
+    },
+    {
+      "name": "WordPress Importer",
+      "slug": "wordpress-importer",
+      "downloaded": 69402575,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Smush – Image Optimization, Compression, Lazy Load, WebP &amp; CDN",
+      "slug": "wp-smushit",
+      "downloaded": 67904079,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Ultimate Addons for Elementor",
+      "slug": "header-footer-elementor",
+      "downloaded": 67615951,
+      "active_installs": 2000000
+    },
+    {
+      "name": "MailPoet &#8211; Newsletters, Email Marketing, and Automation",
+      "slug": "mailpoet",
+      "downloaded": 67393661,
+      "active_installs": 500000
+    },
+    {
+      "name": "WP Fastest Cache &#8211; WordPress Cache Plugin",
+      "slug": "wp-fastest-cache",
+      "downloaded": 65647403,
+      "active_installs": 1000000
+    },
+    {
+      "name": "W3 Total Cache",
+      "slug": "w3-total-cache",
+      "downloaded": 64423985,
+      "active_installs": 900000
+    },
+    {
+      "name": "WP Super Cache",
+      "slug": "wp-super-cache",
+      "downloaded": 64423715,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Premium Addons for Elementor &#8211; Powerful Elementor Templates &amp; Widgets",
+      "slug": "premium-addons-for-elementor",
+      "downloaded": 61608146,
+      "active_installs": 700000
+    },
+    {
+      "name": "Ninja Forms &#8211; The Contact Form Builder That Grows With You",
+      "slug": "ninja-forms",
+      "downloaded": 60993237,
+      "active_installs": 600000
+    },
+    {
+      "name": "WP-Optimize – Cache, Compress images, Minify &amp; Clean database to boost page speed &amp; performance",
+      "slug": "wp-optimize",
+      "downloaded": 58486233,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Page Builder by SiteOrigin",
+      "slug": "siteorigin-panels",
+      "downloaded": 58395861,
+      "active_installs": 400000
+    },
+    {
+      "name": "Duplicator &#8211; Backups &amp; Migration Plugin &#8211; Cloud Backups, Scheduled Backups, &amp; More",
+      "slug": "duplicator",
+      "downloaded": 54030720,
+      "active_installs": 1000000
+    },
+    {
+      "name": "ElementsKit Elementor Addons – Advanced Widgets &amp; Templates Addons for Elementor",
+      "slug": "elementskit-lite",
+      "downloaded": 52247315,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Smash Balloon Social Photo Feed – Easy Social Feeds Plugin",
+      "slug": "instagram-feed",
+      "downloaded": 51867291,
+      "active_installs": 1000000
+    },
+    {
+      "name": "WooCommerce Tax (formerly WooCommerce Shipping &amp; Tax)",
+      "slug": "woocommerce-services",
+      "downloaded": 50803908,
+      "active_installs": 600000
+    },
+    {
+      "name": "Gutenberg",
+      "slug": "gutenberg",
+      "downloaded": 50626842,
+      "active_installs": 300000
+    },
+    {
+      "name": "Meta for WooCommerce",
+      "slug": "facebook-for-woocommerce",
+      "downloaded": 49883550,
+      "active_installs": 400000
+    },
+    {
+      "name": "WooCommerce Stripe Payment Gateway",
+      "slug": "woocommerce-gateway-stripe",
+      "downloaded": 48698865,
+      "active_installs": 700000
+    },
+    {
+      "name": "CookieYes – Cookie Banner for Cookie Consent (Easy to setup GDPR/CCPA Compliant Cookie Notice)",
+      "slug": "cookie-law-info",
+      "downloaded": 48685070,
+      "active_installs": 1000000
+    },
+    {
+      "name": "EWWW Image Optimizer",
+      "slug": "ewww-image-optimizer",
+      "downloaded": 47910906,
+      "active_installs": 1000000
+    },
+    {
+      "name": "SiteOrigin Widgets Bundle",
+      "slug": "so-widgets-bundle",
+      "downloaded": 47233937,
+      "active_installs": 400000
+    },
+    {
+      "name": "MainWP Child &#8211; Securely Connects to the MainWP Dashboard to Manage Multiple Sites",
+      "slug": "mainwp-child",
+      "downloaded": 46708386,
+      "active_installs": 700000
+    },
+    {
+      "name": "Photo Gallery, Sliders, Proofing and Themes &#8211; NextGEN Gallery",
+      "slug": "nextgen-gallery",
+      "downloaded": 45373767,
+      "active_installs": 400000
+    },
+    {
+      "name": "WooPayments: Integrated WooCommerce Payments",
+      "slug": "woocommerce-payments",
+      "downloaded": 44115051,
+      "active_installs": 900000
+    },
+    {
+      "name": "Autoptimize",
+      "slug": "autoptimize",
+      "downloaded": 44055290,
+      "active_installs": 800000
+    },
+    {
+      "name": "XML Sitemap Generator for Google",
+      "slug": "google-sitemap-generator",
+      "downloaded": 43590027,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Google for WooCommerce",
+      "slug": "google-listings-and-ads",
+      "downloaded": 42485354,
+      "active_installs": 800000
+    },
+    {
+      "name": "Spectra Legacy – Gutenberg Blocks",
+      "slug": "ultimate-addons-for-gutenberg",
+      "downloaded": 42024822,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Yoast Duplicate Post",
+      "slug": "duplicate-post",
+      "downloaded": 41291426,
+      "active_installs": 3000000
+    },
+    {
+      "name": "Duplicate Page",
+      "slug": "duplicate-page",
+      "downloaded": 40947939,
+      "active_installs": 3000000
+    },
+    {
+      "name": "Compliance by Hu-manity.co",
+      "slug": "cookie-notice",
+      "downloaded": 39783178,
+      "active_installs": 900000
+    },
+    {
+      "name": "Kadence Blocks — Page Builder Toolkit for Gutenberg Editor",
+      "slug": "kadence-blocks",
+      "downloaded": 39244510,
+      "active_installs": 600000
+    },
+    {
+      "name": "Kadence Security – Password, Two Factor Authentication, and Brute Force Protection",
+      "slug": "better-wp-security",
+      "downloaded": 38673402,
+      "active_installs": 700000
+    },
+    {
+      "name": "All-In-One Security (AIOS) – Security and Firewall",
+      "slug": "all-in-one-wp-security-and-firewall",
+      "downloaded": 37849009,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Security Optimizer &#8211; The All-In-One Protection Plugin",
+      "slug": "sg-security",
+      "downloaded": 36989144,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Loco Translate",
+      "slug": "loco-translate",
+      "downloaded": 36680533,
+      "active_installs": 1000000
+    },
+    {
+      "name": "WP Statistics – Simple, privacy-friendly Google Analytics alternative",
+      "slug": "wp-statistics",
+      "downloaded": 36194543,
+      "active_installs": 600000
+    },
+    {
+      "name": "Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening",
+      "slug": "sucuri-scanner",
+      "downloaded": 35947058,
+      "active_installs": 600000
+    },
+    {
+      "name": "Advanced Editor Tools",
+      "slug": "tinymce-advanced",
+      "downloaded": 35290076,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Website Builder by SeedProd — Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode",
+      "slug": "coming-soon",
+      "downloaded": 34819617,
+      "active_installs": 700000
+    },
+    {
+      "name": "File Manager",
+      "slug": "wp-file-manager",
+      "downloaded": 34652981,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Slider, Gallery, and Carousel by MetaSlider &#8211; Image Slider, Video Slider",
+      "slug": "ml-slider",
+      "downloaded": 34351507,
+      "active_installs": 500000
+    },
+    {
+      "name": "Disable Comments &#8211; Remove Comments &amp; Stop Spam [Multi-Site Support]",
+      "slug": "disable-comments",
+      "downloaded": 33015337,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Redux Framework",
+      "slug": "redux-framework",
+      "downloaded": 32422808,
+      "active_installs": 900000
+    },
+    {
+      "name": "YITH WooCommerce Wishlist",
+      "slug": "yith-woocommerce-wishlist",
+      "downloaded": 31619909,
+      "active_installs": 400000
+    },
+    {
+      "name": "WPS Hide Login",
+      "slug": "wps-hide-login",
+      "downloaded": 31149926,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Loginizer",
+      "slug": "loginizer",
+      "downloaded": 30942504,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Complianz &#8211; GDPR/CCPA Cookie Consent",
+      "slug": "complianz-gdpr",
+      "downloaded": 29738284,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Page Builder Gutenberg Blocks – CoBlocks",
+      "slug": "coblocks",
+      "downloaded": 28119163,
+      "active_installs": 300000
+    },
+    {
+      "name": "ManageWP Worker",
+      "slug": "worker",
+      "downloaded": 27939110,
+      "active_installs": 1000000
+    },
+    {
+      "name": "WP Go Maps &#8211; Google Map, OpenStreetMap, Leaflet Map",
+      "slug": "wp-google-maps",
+      "downloaded": 27803062,
+      "active_installs": 300000
+    },
+    {
+      "name": "Polylang",
+      "slug": "polylang",
+      "downloaded": 27747297,
+      "active_installs": 800000
+    },
+    {
+      "name": "Ocean Extra",
+      "slug": "ocean-extra",
+      "downloaded": 27412705,
+      "active_installs": 500000
+    },
+    {
+      "name": "Formidable Forms &#8211; WordPress Form Builder for Contact Forms, Calculators, Quizzes &amp; More",
+      "slug": "formidable",
+      "downloaded": 27200292,
+      "active_installs": 300000
+    },
+    {
+      "name": "WooCommerce PayPal Payments",
+      "slug": "woocommerce-paypal-payments",
+      "downloaded": 26630465,
+      "active_installs": 800000
+    },
+    {
+      "name": "Shortcodes Ultimate &#8211; Content Elements",
+      "slug": "shortcodes-ultimate",
+      "downloaded": 25557113,
+      "active_installs": 400000
+    },
+    {
+      "name": "BackWPup – WordPress Backup &amp; Restore Plugin",
+      "slug": "backwpup",
+      "downloaded": 24369992,
+      "active_installs": 500000
+    },
+    {
+      "name": "TablePress &#8211; Tables in WordPress made easy",
+      "slug": "tablepress",
+      "downloaded": 24249646,
+      "active_installs": 600000
+    },
+    {
+      "name": "Meta Box",
+      "slug": "meta-box",
+      "downloaded": 24066260,
+      "active_installs": 500000
+    },
+    {
+      "name": "Custom Post Type UI",
+      "slug": "custom-post-type-ui",
+      "downloaded": 24026714,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Smart Slider 3",
+      "slug": "smart-slider-3",
+      "downloaded": 23961973,
+      "active_installs": 800000
+    },
+    {
+      "name": "PDF Invoices &amp; Packing Slips for WooCommerce",
+      "slug": "woocommerce-pdf-invoices-packing-slips",
+      "downloaded": 23212706,
+      "active_installs": 300000
+    },
+    {
+      "name": "Regenerate Thumbnails",
+      "slug": "regenerate-thumbnails",
+      "downloaded": 22733446,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Broken Link Checker",
+      "slug": "broken-link-checker",
+      "downloaded": 22704010,
+      "active_installs": 500000
+    },
+    {
+      "name": "User Role Editor",
+      "slug": "user-role-editor",
+      "downloaded": 21919442,
+      "active_installs": 700000
+    },
+    {
+      "name": "Code Snippets",
+      "slug": "code-snippets",
+      "downloaded": 21150959,
+      "active_installs": 1000000
+    },
+    {
+      "name": "One Click Demo Import",
+      "slug": "one-click-demo-import",
+      "downloaded": 20718470,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Popup Maker &#8211; Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder",
+      "slug": "popup-maker",
+      "downloaded": 20581398,
+      "active_installs": 700000
+    },
+    {
+      "name": "Click to Chat &#8211; HoliThemes",
+      "slug": "click-to-chat-for-whatsapp",
+      "downloaded": 20280269,
+      "active_installs": 700000
+    },
+    {
+      "name": "SEOPress &#8211; AI SEO Plugin &amp; On-site SEO",
+      "slug": "wp-seopress",
+      "downloaded": 19923634,
+      "active_installs": 300000
+    },
+    {
+      "name": "PixelYourSite &#8211; Your smart PIXEL (TAG) &amp; API Manager",
+      "slug": "pixelyoursite",
+      "downloaded": 19879057,
+      "active_installs": 500000
+    },
+    {
+      "name": "LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder",
+      "slug": "wp-maintenance-mode",
+      "downloaded": 19865237,
+      "active_installs": 400000
+    },
+    {
+      "name": "Post SMTP – Complete Email Deliverability and SMTP Solution with Email Logs, Alerts, Backup SMTP &amp; Mobile App",
+      "slug": "post-smtp",
+      "downloaded": 19784489,
+      "active_installs": 300000
+    },
+    {
+      "name": "ShortPixel Image Optimizer &#8211; Optimize Images, Convert WebP &amp; AVIF",
+      "slug": "shortpixel-image-optimiser",
+      "downloaded": 19551067,
+      "active_installs": 300000
+    },
+    {
+      "name": "TranslatePress &#8211; Translate Multilingual sites with AI Translation",
+      "slug": "translatepress-multilingual",
+      "downloaded": 19315108,
+      "active_installs": 400000
+    },
+    {
+      "name": "Forminator Forms – Contact Form, Payment Form &amp; Custom Form Builder",
+      "slug": "forminator",
+      "downloaded": 19295156,
+      "active_installs": 600000
+    },
+    {
+      "name": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
+      "slug": "royal-elementor-addons",
+      "downloaded": 19281645,
+      "active_installs": 600000
+    },
+    {
+      "name": "Ad Inserter &#8211; Ad Manager &amp; AdSense Ads",
+      "slug": "ad-inserter",
+      "downloaded": 19003336,
+      "active_installs": 300000
+    },
+    {
+      "name": "Imagify Image Optimization: Optimize Images | Compress &amp; Convert to WebP/AVIF",
+      "slug": "imagify",
+      "downloaded": 19002963,
+      "active_installs": 1000000
+    },
+    {
+      "name": "AddToAny Share Buttons",
+      "slug": "add-to-any",
+      "downloaded": 18979275,
+      "active_installs": 300000
+    },
+    {
+      "name": "Widgets for Google Reviews",
+      "slug": "wp-reviews-plugin-for-google",
+      "downloaded": 18735417,
+      "active_installs": 900000
+    },
+    {
+      "name": "Easy Table of Contents",
+      "slug": "easy-table-of-contents",
+      "downloaded": 18621635,
+      "active_installs": 600000
+    },
+    {
+      "name": "Maintenance",
+      "slug": "maintenance",
+      "downloaded": 18475656,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Better Search Replace",
+      "slug": "better-search-replace",
+      "downloaded": 18236147,
+      "active_installs": 1000000
+    },
+    {
+      "name": "WPvivid — Backup, Migration &amp; Staging",
+      "slug": "wpvivid-backuprestore",
+      "downloaded": 18000129,
+      "active_installs": 900000
+    },
+    {
+      "name": "Hostinger Tools",
+      "slug": "hostinger",
+      "downloaded": 17965392,
+      "active_installs": 3000000
+    },
+    {
+      "name": "Joinchat &#8211; Enhanced &quot;click to chat&quot;",
+      "slug": "creame-whatsapp-me",
+      "downloaded": 17687486,
+      "active_installs": 700000
+    },
+    {
+      "name": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, &amp; Conversational Form Builder",
+      "slug": "fluentform",
+      "downloaded": 17498115,
+      "active_installs": 700000
+    },
+    {
+      "name": "Blocksy Companion",
+      "slug": "blocksy-companion",
+      "downloaded": 17326641,
+      "active_installs": 300000
+    },
+    {
+      "name": "Breadcrumb NavXT",
+      "slug": "breadcrumb-navxt",
+      "downloaded": 17277347,
+      "active_installs": 800000
+    },
+    {
+      "name": "Redis Object Cache",
+      "slug": "redis-cache",
+      "downloaded": 17267656,
+      "active_installs": 400000
+    },
+    {
+      "name": "Post Types Order",
+      "slug": "post-types-order",
+      "downloaded": 16980311,
+      "active_installs": 600000
+    },
+    {
+      "name": "AMP",
+      "slug": "amp",
+      "downloaded": 16505249,
+      "active_installs": 400000
+    },
+    {
+      "name": "Breeze Cache",
+      "slug": "breeze",
+      "downloaded": 16358989,
+      "active_installs": 400000
+    },
+    {
+      "name": "Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF",
+      "slug": "webp-converter-for-media",
+      "downloaded": 16089615,
+      "active_installs": 500000
+    },
+    {
+      "name": "Hello Dolly",
+      "slug": "hello-dolly",
+      "downloaded": 15570225,
+      "active_installs": 600000
+    },
+    {
+      "name": "Unlimited Elements For Elementor",
+      "slug": "unlimited-elements-for-elementor",
+      "downloaded": 15307037,
+      "active_installs": 300000
+    },
+    {
+      "name": "Image Optimization &#8211; Compress Images and Convert to WebP or AVIF",
+      "slug": "image-optimization",
+      "downloaded": 15241786,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Translate WordPress with GTranslate",
+      "slug": "gtranslate",
+      "downloaded": 14644637,
+      "active_installs": 900000
+    },
+    {
+      "name": "Extendify",
+      "slug": "extendify",
+      "downloaded": 14547288,
+      "active_installs": 500000
+    },
+    {
+      "name": "Easy WP SMTP – WordPress SMTP and Email Logs: Gmail SMTP, Office 365, Outlook, Custom SMTP, and more",
+      "slug": "easy-wp-smtp",
+      "downloaded": 14345831,
+      "active_installs": 500000
+    },
+    {
+      "name": "GTM4WP &#8211; A Google Tag Manager (GTM) plugin for WordPress",
+      "slug": "duracelltomi-google-tag-manager",
+      "downloaded": 14178808,
+      "active_installs": 700000
+    },
+    {
+      "name": "Kirki – Freeform Page Builder, Website Builder &amp; Customizer",
+      "slug": "kirki",
+      "downloaded": 14174828,
+      "active_installs": 500000
+    },
+    {
+      "name": "Enable Media Replace",
+      "slug": "enable-media-replace",
+      "downloaded": 13928065,
+      "active_installs": 600000
+    },
+    {
+      "name": "SVG Support",
+      "slug": "svg-support",
+      "downloaded": 13558344,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Happy Addons for Elementor",
+      "slug": "happy-elementor-addons",
+      "downloaded": 13543616,
+      "active_installs": 400000
+    },
+    {
+      "name": "Under Construction",
+      "slug": "under-construction-page",
+      "downloaded": 13424547,
+      "active_installs": 600000
+    },
+    {
+      "name": "WP-PageNavi",
+      "slug": "wp-pagenavi",
+      "downloaded": 13370302,
+      "active_installs": 500000
+    },
+    {
+      "name": "Safe SVG",
+      "slug": "safe-svg",
+      "downloaded": 13163828,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Otter Blocks &#8211; Gutenberg Blocks, Page Builder for Gutenberg Editor &amp; FSE",
+      "slug": "otter-blocks",
+      "downloaded": 13128266,
+      "active_installs": 300000
+    },
+    {
+      "name": "GDPR Cookie Compliance &#8211; Cookie Banner, Cookie Consent, Cookie Notice for CCPA, EU Cookie Law",
+      "slug": "gdpr-cookie-compliance",
+      "downloaded": 13014003,
+      "active_installs": 300000
+    },
+    {
+      "name": "Max Mega Menu",
+      "slug": "megamenu",
+      "downloaded": 12664419,
+      "active_installs": 300000
+    },
+    {
+      "name": "Templately – Elementor &amp; Gutenberg Template Library: 6500+ Free &amp; Pro Ready Templates And Cloud!",
+      "slug": "templately",
+      "downloaded": 12638002,
+      "active_installs": 300000
+    },
+    {
+      "name": "Antispam Bee",
+      "slug": "antispam-bee",
+      "downloaded": 12546005,
+      "active_installs": 700000
+    },
+    {
+      "name": "Simple History – Track, Log, and Audit WordPress Changes",
+      "slug": "simple-history",
+      "downloaded": 12444727,
+      "active_installs": 300000
+    },
+    {
+      "name": "Disable Gutenberg",
+      "slug": "disable-gutenberg",
+      "downloaded": 11107132,
+      "active_installs": 500000
+    },
+    {
+      "name": "Meta pixel for WordPress",
+      "slug": "official-facebook-pixel",
+      "downloaded": 10940535,
+      "active_installs": 400000
+    },
+    {
+      "name": "Category Order and Taxonomy Terms Order",
+      "slug": "taxonomy-terms-order",
+      "downloaded": 10706565,
+      "active_installs": 500000
+    },
+    {
+      "name": "Simple Custom CSS and JS",
+      "slug": "custom-css-js",
+      "downloaded": 10583401,
+      "active_installs": 600000
+    },
+    {
+      "name": "Checkout Field Editor (Checkout Manager) for WooCommerce",
+      "slug": "woo-checkout-field-editor-pro",
+      "downloaded": 10456064,
+      "active_installs": 400000
+    },
+    {
+      "name": "WP Reset",
+      "slug": "wp-reset",
+      "downloaded": 10185197,
+      "active_installs": 300000
+    },
+    {
+      "name": "GA Google Analytics – Connect Google Analytics to WordPress",
+      "slug": "ga-google-analytics",
+      "downloaded": 10084884,
+      "active_installs": 400000
+    },
+    {
+      "name": "Pinterest for WooCommerce",
+      "slug": "pinterest-for-woocommerce",
+      "downloaded": 9939070,
+      "active_installs": 300000
+    },
+    {
+      "name": "Variation Swatches for WooCommerce",
+      "slug": "woo-variation-swatches",
+      "downloaded": 9407025,
+      "active_installs": 300000
+    },
+    {
+      "name": "Really Simple CAPTCHA",
+      "slug": "really-simple-captcha",
+      "downloaded": 9372400,
+      "active_installs": 300000
+    },
+    {
+      "name": "WP Activity Log",
+      "slug": "wp-security-audit-log",
+      "downloaded": 9342423,
+      "active_installs": 300000
+    },
+    {
+      "name": "MetForm &#8211; Contact Form, Survey, Quiz, &amp; Custom Form Builder for Elementor",
+      "slug": "metform",
+      "downloaded": 9296267,
+      "active_installs": 600000
+    },
+    {
+      "name": "Page Builder: Pagelayer &#8211; Drag and Drop website builder",
+      "slug": "pagelayer",
+      "downloaded": 9112568,
+      "active_installs": 400000
+    },
+    {
+      "name": "Header Footer Code Manager",
+      "slug": "header-footer-code-manager",
+      "downloaded": 8762411,
+      "active_installs": 600000
+    },
+    {
+      "name": "Flamingo",
+      "slug": "flamingo",
+      "downloaded": 8712298,
+      "active_installs": 800000
+    },
+    {
+      "name": "Database Addon for Contact Form 7 &#8211; CFDB7",
+      "slug": "contact-form-cfdb7",
+      "downloaded": 8559389,
+      "active_installs": 600000
+    },
+    {
+      "name": "Cart Abandonment Recovery for WooCommerce – Recover Lost Sales with Automated Emails",
+      "slug": "woo-cart-abandonment-recovery",
+      "downloaded": 8190747,
+      "active_installs": 300000
+    },
+    {
+      "name": "Admin Menu Editor",
+      "slug": "admin-menu-editor",
+      "downloaded": 8102905,
+      "active_installs": 300000
+    },
+    {
+      "name": "WP Multibyte Patch",
+      "slug": "wp-multibyte-patch",
+      "downloaded": 7993639,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Easy Updates Manager",
+      "slug": "stops-core-theme-and-plugin-updates",
+      "downloaded": 7977775,
+      "active_installs": 300000
+    },
+    {
+      "name": "WP Crontrol",
+      "slug": "wp-crontrol",
+      "downloaded": 7912365,
+      "active_installs": 300000
+    },
+    {
+      "name": "Members &#8211; Membership &amp; User Role Editor Plugin",
+      "slug": "members",
+      "downloaded": 7547513,
+      "active_installs": 300000
+    },
+    {
+      "name": "AI Agent by SiteGround",
+      "slug": "sg-ai-studio",
+      "downloaded": 7531801,
+      "active_installs": 1000000
+    },
+    {
+      "name": "Classic Widgets",
+      "slug": "classic-widgets",
+      "downloaded": 7442539,
+      "active_installs": 2000000
+    },
+    {
+      "name": "Password Protected — Lock Entire Site, Pages, Posts, Categories, and Partial Content",
+      "slug": "password-protected",
+      "downloaded": 7418822,
+      "active_installs": 300000
+    },
+    {
+      "name": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line Messenger, WeChat, Email, SMS, Call Button – Chaty",
+      "slug": "chaty",
+      "downloaded": 7367230,
+      "active_installs": 400000
+    },
+    {
+      "name": "Child Theme Configurator",
+      "slug": "child-theme-configurator",
+      "downloaded": 7116653,
+      "active_installs": 300000
+    },
+    {
+      "name": "SiteGuard WP Plugin",
+      "slug": "siteguard",
+      "downloaded": 6862908,
+      "active_installs": 500000
+    },
+    {
+      "name": "Backuply &#8211; Backup, Restore, Migrate and Clone",
+      "slug": "backuply",
+      "downloaded": 6487138,
+      "active_installs": 700000
+    },
+    {
+      "name": "Custom Fonts &#8211; Host Your Fonts Locally",
+      "slug": "custom-fonts",
+      "downloaded": 6407840,
+      "active_installs": 400000
+    },
+    {
+      "name": "Font Awesome",
+      "slug": "font-awesome",
+      "downloaded": 6183557,
+      "active_installs": 400000
+    },
+    {
+      "name": "CF7 Apps – Honeypot, Database, Redirection, Webhook, and Addons for Contact Form 7",
+      "slug": "contact-form-7-honeypot",
+      "downloaded": 6168506,
+      "active_installs": 300000
+    },
+    {
+      "name": "Web Accessibility (formally known as Ally) &#8211; WCAG Scanning, Guided Fixes, Usability Widget",
+      "slug": "pojo-accessibility",
+      "downloaded": 5535948,
+      "active_installs": 500000
+    },
+    {
+      "name": "PDF Embedder",
+      "slug": "pdf-embedder",
+      "downloaded": 5418240,
+      "active_installs": 300000
+    },
+    {
+      "name": "Sticky Header Effects for Elementor",
+      "slug": "sticky-header-effects-for-elementor",
+      "downloaded": 5290678,
+      "active_installs": 300000
+    },
+    {
+      "name": "CMB2",
+      "slug": "cmb2",
+      "downloaded": 5171886,
+      "active_installs": 300000
+    },
+    {
+      "name": "WP Armour &#8211; Honeypot Anti Spam",
+      "slug": "honeypot",
+      "downloaded": 4926986,
+      "active_installs": 400000
+    },
+    {
+      "name": "Simple Custom Post Order",
+      "slug": "simple-custom-post-order",
+      "downloaded": 4761501,
+      "active_installs": 300000
+    },
+    {
+      "name": "WP Mail Logging",
+      "slug": "wp-mail-logging",
+      "downloaded": 4744552,
+      "active_installs": 300000
+    },
+    {
+      "name": "Duplicate Post",
+      "slug": "copy-delete-posts",
+      "downloaded": 4621102,
+      "active_installs": 300000
+    },
+    {
+      "name": "SureForms &#8211; Drag &amp; Drop Contact Form &amp; Form Builder, Payment Form, Survey, Quiz &amp; Calculator",
+      "slug": "sureforms",
+      "downloaded": 4491744,
+      "active_installs": 500000
+    },
+    {
+      "name": "SpeedyCache &#8211; Cache, Optimization, Performance",
+      "slug": "speedycache",
+      "downloaded": 4389946,
+      "active_installs": 600000
+    },
+    {
+      "name": "WebP Express",
+      "slug": "webp-express",
+      "downloaded": 4359713,
+      "active_installs": 300000
+    },
+    {
+      "name": "FluentSMTP &#8211; WP SMTP Plugin with Amazon SES, SendGrid, MailGun, Postmark, Google and Any SMTP Provider",
+      "slug": "fluent-smtp",
+      "downloaded": 4233508,
+      "active_installs": 600000
+    },
+    {
+      "name": "Jeg Kit for Elementor – Powerful Addons for Elementor, Widgets &amp; Templates for WordPress",
+      "slug": "jeg-elementor-kit",
+      "downloaded": 4054646,
+      "active_installs": 300000
+    },
+    {
+      "name": "301 Redirects &#8211; Redirect Manager",
+      "slug": "eps-301-redirects",
+      "downloaded": 3905036,
+      "active_installs": 300000
+    },
+    {
+      "name": "Intuitive Custom Post Order",
+      "slug": "intuitive-custom-post-order",
+      "downloaded": 3050818,
+      "active_installs": 400000
+    },
+    {
+      "name": "SureRank SEO – Smart Assistant with Meta Tags, Social Preview, XML Sitemap, and Schema",
+      "slug": "surerank",
+      "downloaded": 2700124,
+      "active_installs": 300000
+    },
+    {
+      "name": "WooCommerce Legacy REST API",
+      "slug": "woocommerce-legacy-rest-api",
+      "downloaded": 2400101,
+      "active_installs": 400000
+    },
+    {
+      "name": "Broken Link Checker by AIOSEO – Find &amp; Fix Broken Internal, External &amp; Video Links",
+      "slug": "broken-link-checker-seo",
+      "downloaded": 2362288,
+      "active_installs": 300000
+    },
+    {
+      "name": "GoSMTP &#8211; SMTP for WordPress",
+      "slug": "gosmtp",
+      "downloaded": 2339501,
+      "active_installs": 500000
+    },
+    {
+      "name": "Limit Login Attempts",
+      "slug": "limit-login-attempts",
+      "downloaded": 2294333,
+      "active_installs": 300000
+    },
+    {
+      "name": "Complianz &#8211; Terms and Conditions",
+      "slug": "complianz-terms-conditions",
+      "downloaded": 2074250,
+      "active_installs": 300000
+    },
+    {
+      "name": "SiteSEO &#8211; SEO Simplified",
+      "slug": "siteseo",
+      "downloaded": 1592590,
+      "active_installs": 500000
+    },
+    {
+      "name": "Template Kit &#8211; Import",
+      "slug": "template-kit-import",
+      "downloaded": 1427112,
+      "active_installs": 400000
+    },
+    {
+      "name": "CookieAdmin &#8211; Cookie Consent Banner",
+      "slug": "cookieadmin",
+      "downloaded": 965340,
+      "active_installs": 400000
+    },
+    {
+      "name": "Hostinger Reach &#8211; AI-Powered Email Marketing for WordPress",
+      "slug": "hostinger-reach",
+      "downloaded": 499957,
+      "active_installs": 1000000
+    }
   ],
   "themes": [
-    { "name": "Twenty Ten", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Eleven", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Twelve", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Thirteen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Fourteen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Fifteen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Sixteen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Seventeen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Nineteen", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Twenty", "category": "Temas padrão do WordPress" },
-    { "name": "Twenty Twenty-One", "category": "Temas padrão do WordPress" },
-    { "name": "Astra", "category": "Temas multiuso" },
-    { "name": "GeneratePress", "category": "Temas multiuso" },
-    { "name": "OceanWP", "category": "Temas multiuso" },
-    { "name": "Kadence", "category": "Temas multiuso" },
-    { "name": "Neve", "category": "Temas multiuso" },
-    { "name": "Hello Elementor", "category": "Temas multiuso" },
-    { "name": "Divi", "category": "Temas multiuso" },
-    { "name": "Avada", "category": "Temas multiuso" },
-    { "name": "The7", "category": "Temas multiuso" },
-    { "name": "Flatsome", "category": "Temas multiuso" },
-    { "name": "Storefront", "category": "Temas multiuso" },
-    { "name": "Hestia", "category": "Temas multiuso" },
-    { "name": "Sydney", "category": "Temas multiuso" },
-    { "name": "Zerif Lite", "category": "Temas multiuso" },
-    { "name": "Customizr", "category": "Temas multiuso" },
-    { "name": "ColorMag", "category": "Temas multiuso" },
-    { "name": "Newspaper", "category": "Temas multiuso" },
-    { "name": "Total", "category": "Temas multiuso" },
-    { "name": "X Theme", "category": "Temas multiuso" },
-    { "name": "Enfold", "category": "Temas multiuso" },
-    { "name": "BeTheme", "category": "Temas multiuso" },
-    { "name": "Bridge", "category": "Temas multiuso" }
+    {
+      "name": "Twenty Ten",
+      "slug": "twenty-ten",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Eleven",
+      "slug": "twenty-eleven",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Twelve",
+      "slug": "twenty-twelve",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Thirteen",
+      "slug": "twenty-thirteen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Fourteen",
+      "slug": "twenty-fourteen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Fifteen",
+      "slug": "twenty-fifteen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Sixteen",
+      "slug": "twenty-sixteen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Seventeen",
+      "slug": "twenty-seventeen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Nineteen",
+      "slug": "twenty-nineteen",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Twenty",
+      "slug": "twenty-twenty",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Twenty Twenty-One",
+      "slug": "twenty-twenty-one",
+      "category": "Temas padrão do WordPress"
+    },
+    {
+      "name": "Astra",
+      "slug": "astra",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "GeneratePress",
+      "slug": "generatepress",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "OceanWP",
+      "slug": "oceanwp",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Kadence",
+      "slug": "kadence",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Neve",
+      "slug": "neve",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Hello Elementor",
+      "slug": "hello-elementor",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Divi",
+      "slug": "divi",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Avada",
+      "slug": "avada",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "The7",
+      "slug": "the7",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Flatsome",
+      "slug": "flatsome",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Storefront",
+      "slug": "storefront",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Hestia",
+      "slug": "hestia",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Sydney",
+      "slug": "sydney",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Zerif Lite",
+      "slug": "zerif-lite",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Customizr",
+      "slug": "customizr",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "ColorMag",
+      "slug": "colormag",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Newspaper",
+      "slug": "newspaper",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Total",
+      "slug": "total",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "X Theme",
+      "slug": "x-theme",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Enfold",
+      "slug": "enfold",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "BeTheme",
+      "slug": "betheme",
+      "category": "Temas multiuso"
+    },
+    {
+      "name": "Bridge",
+      "slug": "bridge",
+      "category": "Temas multiuso"
+    }
   ]
 }

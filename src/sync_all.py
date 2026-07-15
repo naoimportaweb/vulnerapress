@@ -30,7 +30,11 @@ def all_components() -> list[dict]:
     out = []
     for key, kind in (("plugins", "plugin"), ("themes", "theme")):
         for c in data.get(key, []):
-            out.append({"name": c["name"], "slug": slug(c["name"]), "type": kind})
+            out.append({
+                "name": c["name"],
+                "slug": c.get("slug") or slug(c["name"]),  # usa slug canônico se houver
+                "type": kind,
+            })
     return out
 
 
