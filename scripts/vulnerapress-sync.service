@@ -1,0 +1,8 @@
+[Unit]
+Description=Vulnerapress: sincroniza componentes com o cofre
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/user/desenv/vulnerapress/scripts/sync_cron.sh
