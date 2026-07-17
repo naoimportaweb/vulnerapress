@@ -2,7 +2,7 @@
 # Runner de sincronização do Vulnerapress para agendamento (cron/systemd).
 # Roda src/sync_all.py com trava anti-sobreposição e log com timestamp.
 #
-# Produção: NÃO exporte CRAUDIOWEBOT_DIRECT — os downloads passam pelo bot.
+# O backend de download vem do .env na raiz (FETCH_BACKEND); este script não o define.
 set -euo pipefail
 
 REPO_ROOT="/home/user/desenv/vulnerapress"
