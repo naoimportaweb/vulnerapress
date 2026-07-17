@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from downloader import sync_component
 
-COMPONENT = {'name': 'Twenty Twenty-One', 'slug': 'twenty-twenty-one', 'type': 'theme'}
+COMPONENT = {'name': 'Twenty Twenty-One', 'slug': 'twentytwentyone', 'type': 'theme'}
 
 if __name__ == "__main__":
     raise SystemExit(sync_component(**COMPONENT))
