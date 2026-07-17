@@ -9,12 +9,14 @@ Uso:
     python src/sync_all.py yoast-seo  # só os slugs passados
 """
 import json
+import os
 import re
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from downloader import sync_component
+from downloader import load_env, sync_component
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 COMPONENTS_JSON = REPO_ROOT / "data" / "components.json"
@@ -39,11 +41,17 @@ def all_components() -> list[dict]:
 
 
 def main(argv: list[str]) -> int:
+    load_env()
+    sleep_seconds = float(os.environ.get("SYNC_SLEEP_SECONDS", "0"))
     wanted = set(argv[1:])
     rc = 0
+    first = True
     for comp in all_components():
         if wanted and comp["slug"] not in wanted:
             continue
+        if not first and sleep_seconds > 0:
+            time.sleep(sleep_seconds)
+        first = False
         try:
             rc |= sync_component(**comp)
         except Exception as exc:  # não deixa um componente derrubar o lote
